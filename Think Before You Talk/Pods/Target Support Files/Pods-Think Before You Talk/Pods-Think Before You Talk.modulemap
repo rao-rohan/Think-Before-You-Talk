@@ -1,0 +1,6 @@
+framework module Pods_Think_Before_You_Talk {
+  umbrella header "Pods-Think Before You Talk-umbrella.h"
+
+  export *
+  module * { export * }
+}

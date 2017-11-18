@@ -8,13 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		1CAF070A1FBFF36400774438 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAF07091FBFF36400774438 /* AppDelegate.swift */; };
-		1CAF070C1FBFF36400774438 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAF070B1FBFF36400774438 /* ViewController.swift */; };
-		1CAF070F1FBFF36400774438 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CAF070D1FBFF36400774438 /* Main.storyboard */; };
 		1CAF07121FBFF36400774438 /* Think_Before_You_Talk.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1CAF07101FBFF36400774438 /* Think_Before_You_Talk.xcdatamodeld */; };
 		1CAF07141FBFF36400774438 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CAF07131FBFF36400774438 /* Assets.xcassets */; };
 		1CAF07171FBFF36400774438 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CAF07151FBFF36400774438 /* LaunchScreen.storyboard */; };
 		1CAF07221FBFF36500774438 /* Think_Before_You_TalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAF07211FBFF36500774438 /* Think_Before_You_TalkTests.swift */; };
 		1CAF072D1FBFF36500774438 /* Think_Before_You_TalkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAF072C1FBFF36500774438 /* Think_Before_You_TalkUITests.swift */; };
+		1CAF07881FC0044500774438 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1CAF073A1FBFF3FE00774438 /* GoogleService-Info.plist */; };
+		1CAF078A1FC0053F00774438 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CAF07891FC0053F00774438 /* Main.storyboard */; };
+		1CAF078D1FC0081A00774438 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1CAF078B1FC007D500774438 /* Info.plist */; };
+		1CAF078E1FC0081B00774438 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1CAF078B1FC007D500774438 /* Info.plist */; };
+		1CAF078F1FC0081B00774438 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1CAF078B1FC007D500774438 /* Info.plist */; };
+		4C473193929418BC2E467A30 /* Pods_Think_Before_You_Talk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 432560C8489068DD89833720 /* Pods_Think_Before_You_Talk.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,18 +41,33 @@
 /* Begin PBXFileReference section */
 		1CAF07061FBFF36400774438 /* Think Before You Talk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Think Before You Talk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CAF07091FBFF36400774438 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1CAF070B1FBFF36400774438 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1CAF070E1FBFF36400774438 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1CAF07111FBFF36400774438 /* Think_Before_You_Talk.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Think_Before_You_Talk.xcdatamodel; sourceTree = "<group>"; };
 		1CAF07131FBFF36400774438 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CAF07161FBFF36400774438 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		1CAF07181FBFF36400774438 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1CAF071D1FBFF36500774438 /* Think Before You TalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Think Before You TalkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CAF07211FBFF36500774438 /* Think_Before_You_TalkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Think_Before_You_TalkTests.swift; sourceTree = "<group>"; };
 		1CAF07231FBFF36500774438 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1CAF07281FBFF36500774438 /* Think Before You TalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Think Before You TalkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CAF072C1FBFF36500774438 /* Think_Before_You_TalkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Think_Before_You_TalkUITests.swift; sourceTree = "<group>"; };
 		1CAF072E1FBFF36500774438 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CAF073A1FBFF3FE00774438 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1CAF076E1FC0029700774438 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		1CAF076F1FC0029700774438 /* ConversationsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsVC.swift; sourceTree = "<group>"; };
+		1CAF07701FC0029700774438 /* LandingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingVC.swift; sourceTree = "<group>"; };
+		1CAF07711FC0029700774438 /* NavVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavVC.swift; sourceTree = "<group>"; };
+		1CAF07721FC0029700774438 /* VCCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCCells.swift; sourceTree = "<group>"; };
+		1CAF07731FC0029700774438 /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
+		1CAF07771FC0029700774438 /* BadgeSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSwift.swift; sourceTree = "<group>"; };
+		1CAF07781FC0029700774438 /* Helper Files.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Helper Files.swift"; sourceTree = "<group>"; };
+		1CAF077D1FC0029800774438 /* Conversation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conversation.swift; sourceTree = "<group>"; };
+		1CAF077E1FC0029800774438 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		1CAF077F1FC0029800774438 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		1CAF07811FC0029800774438 /* newMessage.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = newMessage.wav; sourceTree = "<group>"; };
+		1CAF07891FC0053F00774438 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		1CAF078B1FC007D500774438 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../../WhatsUp/WhatsUp/Info.plist; sourceTree = "<group>"; };
+		432560C8489068DD89833720 /* Pods_Think_Before_You_Talk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Think_Before_You_Talk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A34347772B392345EFFC5A3 /* Pods-Think Before You Talk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Think Before You Talk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Think Before You Talk/Pods-Think Before You Talk.debug.xcconfig"; sourceTree = "<group>"; };
+		89B40CCE7301E49572B2AB4E /* Pods-Think Before You Talk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Think Before You Talk.release.xcconfig"; path = "Pods/Target Support Files/Pods-Think Before You Talk/Pods-Think Before You Talk.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C473193929418BC2E467A30 /* Pods_Think_Before_You_Talk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +103,8 @@
 				1CAF07201FBFF36500774438 /* Think Before You TalkTests */,
 				1CAF072B1FBFF36500774438 /* Think Before You TalkUITests */,
 				1CAF07071FBFF36400774438 /* Products */,
+				513BE461DAE5D77DC5822EF6 /* Pods */,
+				2A7F4CBE724959E33BA8A435 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,11 +122,15 @@
 			isa = PBXGroup;
 			children = (
 				1CAF07091FBFF36400774438 /* AppDelegate.swift */,
-				1CAF070B1FBFF36400774438 /* ViewController.swift */,
-				1CAF070D1FBFF36400774438 /* Main.storyboard */,
+				1CAF07891FC0053F00774438 /* Main.storyboard */,
+				1CAF07761FC0029700774438 /* Helper files */,
+				1CAF077C1FC0029800774438 /* Model */,
+				1CAF076D1FC0029700774438 /* ViewControllers */,
+				1CAF07811FC0029800774438 /* newMessage.wav */,
 				1CAF07131FBFF36400774438 /* Assets.xcassets */,
 				1CAF07151FBFF36400774438 /* LaunchScreen.storyboard */,
-				1CAF07181FBFF36400774438 /* Info.plist */,
+				1CAF078B1FC007D500774438 /* Info.plist */,
+				1CAF073A1FBFF3FE00774438 /* GoogleService-Info.plist */,
 				1CAF07101FBFF36400774438 /* Think_Before_You_Talk.xcdatamodeld */,
 			);
 			path = "Think Before You Talk";
@@ -128,6 +154,56 @@
 			path = "Think Before You TalkUITests";
 			sourceTree = "<group>";
 		};
+		1CAF076D1FC0029700774438 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1CAF076E1FC0029700774438 /* ChatVC.swift */,
+				1CAF076F1FC0029700774438 /* ConversationsVC.swift */,
+				1CAF07701FC0029700774438 /* LandingVC.swift */,
+				1CAF07711FC0029700774438 /* NavVC.swift */,
+				1CAF07721FC0029700774438 /* VCCells.swift */,
+				1CAF07731FC0029700774438 /* WelcomeVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1CAF07761FC0029700774438 /* Helper files */ = {
+			isa = PBXGroup;
+			children = (
+				1CAF07771FC0029700774438 /* BadgeSwift.swift */,
+				1CAF07781FC0029700774438 /* Helper Files.swift */,
+			);
+			path = "Helper files";
+			sourceTree = "<group>";
+		};
+		1CAF077C1FC0029800774438 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1CAF077D1FC0029800774438 /* Conversation.swift */,
+				1CAF077E1FC0029800774438 /* Message.swift */,
+				1CAF077F1FC0029800774438 /* User.swift */,
+			);
+			name = Model;
+			path = ../../../WhatsUp/WhatsUp/Model;
+			sourceTree = "<group>";
+		};
+		2A7F4CBE724959E33BA8A435 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				432560C8489068DD89833720 /* Pods_Think_Before_You_Talk.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		513BE461DAE5D77DC5822EF6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A34347772B392345EFFC5A3 /* Pods-Think Before You Talk.debug.xcconfig */,
+				89B40CCE7301E49572B2AB4E /* Pods-Think Before You Talk.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +211,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1CAF07311FBFF36500774438 /* Build configuration list for PBXNativeTarget "Think Before You Talk" */;
 			buildPhases = (
+				09B4D17A473FE2FAD390CB40 /* [CP] Check Pods Manifest.lock */,
 				1CAF07021FBFF36400774438 /* Sources */,
 				1CAF07031FBFF36400774438 /* Frameworks */,
 				1CAF07041FBFF36400774438 /* Resources */,
+				7B0863DAE7619B6141AE2E9D /* [CP] Embed Pods Frameworks */,
+				93A48CFF28B8FC202BB13248 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -237,7 +316,9 @@
 			files = (
 				1CAF07171FBFF36400774438 /* LaunchScreen.storyboard in Resources */,
 				1CAF07141FBFF36400774438 /* Assets.xcassets in Resources */,
-				1CAF070F1FBFF36400774438 /* Main.storyboard in Resources */,
+				1CAF07881FC0044500774438 /* GoogleService-Info.plist in Resources */,
+				1CAF078D1FC0081A00774438 /* Info.plist in Resources */,
+				1CAF078A1FC0053F00774438 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +326,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CAF078E1FC0081B00774438 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,10 +334,73 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CAF078F1FC0081B00774438 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09B4D17A473FE2FAD390CB40 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Think Before You Talk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B0863DAE7619B6141AE2E9D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Think Before You Talk/Pods-Think Before You Talk-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Think Before You Talk/Pods-Think Before You Talk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93A48CFF28B8FC202BB13248 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Think Before You Talk/Pods-Think Before You Talk-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1CAF07021FBFF36400774438 /* Sources */ = {
@@ -263,7 +408,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CAF07121FBFF36400774438 /* Think_Before_You_Talk.xcdatamodeld in Sources */,
-				1CAF070C1FBFF36400774438 /* ViewController.swift in Sources */,
 				1CAF070A1FBFF36400774438 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,14 +444,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1CAF070D1FBFF36400774438 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1CAF070E1FBFF36400774438 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1CAF07151FBFF36400774438 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -428,11 +564,12 @@
 		};
 		1CAF07321FBFF36500774438 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A34347772B392345EFFC5A3 /* Pods-Think Before You Talk.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9P3SHN267S;
-				INFOPLIST_FILE = "Think Before You Talk/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/../../WhatsUp/WhatsUp/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rohanrao.Think-Before-You-Talk";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -443,11 +580,12 @@
 		};
 		1CAF07331FBFF36500774438 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89B40CCE7301E49572B2AB4E /* Pods-Think Before You Talk.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9P3SHN267S;
-				INFOPLIST_FILE = "Think Before You Talk/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/../../WhatsUp/WhatsUp/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rohanrao.Think-Before-You-Talk";
 				PRODUCT_NAME = "$(TARGET_NAME)";
