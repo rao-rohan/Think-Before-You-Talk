@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CAF070A1FBFF36400774438 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAF07091FBFF36400774438 /* AppDelegate.swift */; };
+		1CAF070C1FBFF36400774438 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAF070B1FBFF36400774438 /* ViewController.swift */; };
+		1CAF070F1FBFF36400774438 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CAF070D1FBFF36400774438 /* Main.storyboard */; };
+		1CAF07121FBFF36400774438 /* Think_Before_You_Talk.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1CAF07101FBFF36400774438 /* Think_Before_You_Talk.xcdatamodeld */; };
+		1CAF07141FBFF36400774438 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CAF07131FBFF36400774438 /* Assets.xcassets */; };
+		1CAF07171FBFF36400774438 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CAF07151FBFF36400774438 /* LaunchScreen.storyboard */; };
+		1CAF07221FBFF36500774438 /* Think_Before_You_TalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAF07211FBFF36500774438 /* Think_Before_You_TalkTests.swift */; };
+		1CAF072D1FBFF36500774438 /* Think_Before_You_TalkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAF072C1FBFF36500774438 /* Think_Before_You_TalkUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1CAF071E1FBFF36500774438 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CAF06FE1FBFF36400774438 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CAF07051FBFF36400774438;
+			remoteInfo = "Think Before You Talk";
+		};
+		1CAF07291FBFF36500774438 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CAF06FE1FBFF36400774438 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CAF07051FBFF36400774438;
+			remoteInfo = "Think Before You Talk";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1CAF07061FBFF36400774438 /* Think Before You Talk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Think Before You Talk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CAF07091FBFF36400774438 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1CAF070B1FBFF36400774438 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1CAF070E1FBFF36400774438 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1CAF07111FBFF36400774438 /* Think_Before_You_Talk.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Think_Before_You_Talk.xcdatamodel; sourceTree = "<group>"; };
+		1CAF07131FBFF36400774438 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1CAF07161FBFF36400774438 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1CAF07181FBFF36400774438 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CAF071D1FBFF36500774438 /* Think Before You TalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Think Before You TalkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CAF07211FBFF36500774438 /* Think_Before_You_TalkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Think_Before_You_TalkTests.swift; sourceTree = "<group>"; };
+		1CAF07231FBFF36500774438 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CAF07281FBFF36500774438 /* Think Before You TalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Think Before You TalkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CAF072C1FBFF36500774438 /* Think_Before_You_TalkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Think_Before_You_TalkUITests.swift; sourceTree = "<group>"; };
+		1CAF072E1FBFF36500774438 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CAF07031FBFF36400774438 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CAF071A1FBFF36500774438 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CAF07251FBFF36500774438 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CAF06FD1FBFF36400774438 = {
+			isa = PBXGroup;
+			children = (
+				1CAF07081FBFF36400774438 /* Think Before You Talk */,
+				1CAF07201FBFF36500774438 /* Think Before You TalkTests */,
+				1CAF072B1FBFF36500774438 /* Think Before You TalkUITests */,
+				1CAF07071FBFF36400774438 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1CAF07071FBFF36400774438 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CAF07061FBFF36400774438 /* Think Before You Talk.app */,
+				1CAF071D1FBFF36500774438 /* Think Before You TalkTests.xctest */,
+				1CAF07281FBFF36500774438 /* Think Before You TalkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CAF07081FBFF36400774438 /* Think Before You Talk */ = {
+			isa = PBXGroup;
+			children = (
+				1CAF07091FBFF36400774438 /* AppDelegate.swift */,
+				1CAF070B1FBFF36400774438 /* ViewController.swift */,
+				1CAF070D1FBFF36400774438 /* Main.storyboard */,
+				1CAF07131FBFF36400774438 /* Assets.xcassets */,
+				1CAF07151FBFF36400774438 /* LaunchScreen.storyboard */,
+				1CAF07181FBFF36400774438 /* Info.plist */,
+				1CAF07101FBFF36400774438 /* Think_Before_You_Talk.xcdatamodeld */,
+			);
+			path = "Think Before You Talk";
+			sourceTree = "<group>";
+		};
+		1CAF07201FBFF36500774438 /* Think Before You TalkTests */ = {
+			isa = PBXGroup;
+			children = (
+				1CAF07211FBFF36500774438 /* Think_Before_You_TalkTests.swift */,
+				1CAF07231FBFF36500774438 /* Info.plist */,
+			);
+			path = "Think Before You TalkTests";
+			sourceTree = "<group>";
+		};
+		1CAF072B1FBFF36500774438 /* Think Before You TalkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1CAF072C1FBFF36500774438 /* Think_Before_You_TalkUITests.swift */,
+				1CAF072E1FBFF36500774438 /* Info.plist */,
+			);
+			path = "Think Before You TalkUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1CAF07051FBFF36400774438 /* Think Before You Talk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CAF07311FBFF36500774438 /* Build configuration list for PBXNativeTarget "Think Before You Talk" */;
+			buildPhases = (
+				1CAF07021FBFF36400774438 /* Sources */,
+				1CAF07031FBFF36400774438 /* Frameworks */,
+				1CAF07041FBFF36400774438 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Think Before You Talk";
+			productName = "Think Before You Talk";
+			productReference = 1CAF07061FBFF36400774438 /* Think Before You Talk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1CAF071C1FBFF36500774438 /* Think Before You TalkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CAF07341FBFF36500774438 /* Build configuration list for PBXNativeTarget "Think Before You TalkTests" */;
+			buildPhases = (
+				1CAF07191FBFF36500774438 /* Sources */,
+				1CAF071A1FBFF36500774438 /* Frameworks */,
+				1CAF071B1FBFF36500774438 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CAF071F1FBFF36500774438 /* PBXTargetDependency */,
+			);
+			name = "Think Before You TalkTests";
+			productName = "Think Before You TalkTests";
+			productReference = 1CAF071D1FBFF36500774438 /* Think Before You TalkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1CAF07271FBFF36500774438 /* Think Before You TalkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CAF07371FBFF36500774438 /* Build configuration list for PBXNativeTarget "Think Before You TalkUITests" */;
+			buildPhases = (
+				1CAF07241FBFF36500774438 /* Sources */,
+				1CAF07251FBFF36500774438 /* Frameworks */,
+				1CAF07261FBFF36500774438 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CAF072A1FBFF36500774438 /* PBXTargetDependency */,
+			);
+			name = "Think Before You TalkUITests";
+			productName = "Think Before You TalkUITests";
+			productReference = 1CAF07281FBFF36500774438 /* Think Before You TalkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1CAF06FE1FBFF36400774438 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "nFinity Labs";
+				TargetAttributes = {
+					1CAF07051FBFF36400774438 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					1CAF071C1FBFF36500774438 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1CAF07051FBFF36400774438;
+					};
+					1CAF07271FBFF36500774438 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1CAF07051FBFF36400774438;
+					};
+				};
+			};
+			buildConfigurationList = 1CAF07011FBFF36400774438 /* Build configuration list for PBXProject "Think Before You Talk" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1CAF06FD1FBFF36400774438;
+			productRefGroup = 1CAF07071FBFF36400774438 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CAF07051FBFF36400774438 /* Think Before You Talk */,
+				1CAF071C1FBFF36500774438 /* Think Before You TalkTests */,
+				1CAF07271FBFF36500774438 /* Think Before You TalkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CAF07041FBFF36400774438 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CAF07171FBFF36400774438 /* LaunchScreen.storyboard in Resources */,
+				1CAF07141FBFF36400774438 /* Assets.xcassets in Resources */,
+				1CAF070F1FBFF36400774438 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CAF071B1FBFF36500774438 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CAF07261FBFF36500774438 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CAF07021FBFF36400774438 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CAF07121FBFF36400774438 /* Think_Before_You_Talk.xcdatamodeld in Sources */,
+				1CAF070C1FBFF36400774438 /* ViewController.swift in Sources */,
+				1CAF070A1FBFF36400774438 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CAF07191FBFF36500774438 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CAF07221FBFF36500774438 /* Think_Before_You_TalkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CAF07241FBFF36500774438 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CAF072D1FBFF36500774438 /* Think_Before_You_TalkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1CAF071F1FBFF36500774438 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CAF07051FBFF36400774438 /* Think Before You Talk */;
+			targetProxy = 1CAF071E1FBFF36500774438 /* PBXContainerItemProxy */;
+		};
+		1CAF072A1FBFF36500774438 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CAF07051FBFF36400774438 /* Think Before You Talk */;
+			targetProxy = 1CAF07291FBFF36500774438 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1CAF070D1FBFF36400774438 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CAF070E1FBFF36400774438 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1CAF07151FBFF36400774438 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CAF07161FBFF36400774438 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1CAF072F1FBFF36500774438 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1CAF07301FBFF36500774438 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1CAF07321FBFF36500774438 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9P3SHN267S;
+				INFOPLIST_FILE = "Think Before You Talk/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rohanrao.Think-Before-You-Talk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1CAF07331FBFF36500774438 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9P3SHN267S;
+				INFOPLIST_FILE = "Think Before You Talk/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rohanrao.Think-Before-You-Talk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1CAF07351FBFF36500774438 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9P3SHN267S;
+				INFOPLIST_FILE = "Think Before You TalkTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rohanrao.Think-Before-You-TalkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Think Before You Talk.app/Think Before You Talk";
+			};
+			name = Debug;
+		};
+		1CAF07361FBFF36500774438 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9P3SHN267S;
+				INFOPLIST_FILE = "Think Before You TalkTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rohanrao.Think-Before-You-TalkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Think Before You Talk.app/Think Before You Talk";
+			};
+			name = Release;
+		};
+		1CAF07381FBFF36500774438 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9P3SHN267S;
+				INFOPLIST_FILE = "Think Before You TalkUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rohanrao.Think-Before-You-TalkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Think Before You Talk";
+			};
+			name = Debug;
+		};
+		1CAF07391FBFF36500774438 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9P3SHN267S;
+				INFOPLIST_FILE = "Think Before You TalkUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rohanrao.Think-Before-You-TalkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Think Before You Talk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CAF07011FBFF36400774438 /* Build configuration list for PBXProject "Think Before You Talk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CAF072F1FBFF36500774438 /* Debug */,
+				1CAF07301FBFF36500774438 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CAF07311FBFF36500774438 /* Build configuration list for PBXNativeTarget "Think Before You Talk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CAF07321FBFF36500774438 /* Debug */,
+				1CAF07331FBFF36500774438 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CAF07341FBFF36500774438 /* Build configuration list for PBXNativeTarget "Think Before You TalkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CAF07351FBFF36500774438 /* Debug */,
+				1CAF07361FBFF36500774438 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CAF07371FBFF36500774438 /* Build configuration list for PBXNativeTarget "Think Before You TalkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CAF07381FBFF36500774438 /* Debug */,
+				1CAF07391FBFF36500774438 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1CAF07101FBFF36400774438 /* Think_Before_You_Talk.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1CAF07111FBFF36400774438 /* Think_Before_You_Talk.xcdatamodel */,
+			);
+			currentVersion = 1CAF07111FBFF36400774438 /* Think_Before_You_Talk.xcdatamodel */;
+			path = Think_Before_You_Talk.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1CAF06FE1FBFF36400774438 /* Project object */;
+}
